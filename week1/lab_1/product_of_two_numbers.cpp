@@ -1,6 +1,7 @@
 //@author: Shatokhin Mikhail
 //@date: mm/dd/yyyy
 //@purpose: 
+//LucidChart Link: https://lucid.app/lucidchart/774323b7-4a74-49ed-8814-d85ec043e249/edit?viewport_loc=-1985%2C297%2C2186%2C1747%2C0_0&invitationId=inv_ceff031d-ac24-4914-8f0a-1f707597a93f
 
 //include the iostream directive
 #include<iostream>
