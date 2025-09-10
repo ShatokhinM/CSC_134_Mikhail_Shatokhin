@@ -13,14 +13,16 @@ using namespace std;
 int main(){
     
     //initialize the variables
+    bool stat1 = true;
+    bool stat2 = false;
 
-    //comments 4use list:
-    //using std input to record a variable
-    //using std output to desplay variable/messege
-    //
-    //
-    //
-
+    if ((stat1) && (stat2)){
+        cout << "Both are true" << endl;
+    } else if ((stat1) || (stat2)){
+        cout << "At least one is true" << endl;
+    } else {
+        cout << "Both are false" << endl;
+    }
 
     //return 0 for good ethics of it all.
     return 0;
