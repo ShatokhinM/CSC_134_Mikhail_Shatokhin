@@ -1,5 +1,5 @@
 //@author: Shatokhin Mikhail
-//@date: mm/dd/yyyy
+//@date: 09/17/2025
 //@purpose: 
 //LucidChart Link: 
 
@@ -12,15 +12,15 @@ using namespace std;
 // define the main function
 int main(){
     
+    float count = 0;
+    float input;
     //initialize the variables
-    
-    int x = 1;
-    int y = ++x;
-    cout << y;
+    for (int i = 0; i < 10; i++){
+        cin >> input;
+        count += input;
+    }
 
-    x = 1;
-    y = x++;
-    cout << y;
+    cout << "avg is: " << count/10;
     //return 0 for good ethics of it all.
     return 0;
 }

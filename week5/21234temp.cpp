@@ -1,5 +1,5 @@
 //@author: Shatokhin Mikhail
-//@date: mm/dd/yyyy
+//@date: 09/17/2025
 //@purpose: 
 //LucidChart Link: 
 
@@ -13,14 +13,14 @@ using namespace std;
 int main(){
     
     //initialize the variables
+    float input = 0;
     
-    int x = 1;
-    int y = ++x;
-    cout << y;
-
-    x = 1;
-    y = x++;
-    cout << y;
+    while(input != 212.34F){
+        cout << "Input: ";
+        cin >> input;
+        //cout<<(input==212.34)<<" that "<< input << " is equal to 212.34" <<endl;
+    }
+    cout << "GG";
     //return 0 for good ethics of it all.
     return 0;
 }

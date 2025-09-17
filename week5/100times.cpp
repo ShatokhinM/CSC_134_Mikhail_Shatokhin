@@ -1,5 +1,5 @@
 //@author: Shatokhin Mikhail
-//@date: mm/dd/yyyy
+//@date: 09/17/2025
 //@purpose: 
 //LucidChart Link: 
 
@@ -11,16 +11,13 @@ using namespace std;
 
 // define the main function
 int main(){
-    
+    int count = 1;
     //initialize the variables
-    
-    int x = 1;
-    int y = ++x;
-    cout << y;
+    while(count <= 100){
+        cout << "this is line #" << count <<endl;
+        count += 1;
+    }
 
-    x = 1;
-    y = x++;
-    cout << y;
     //return 0 for good ethics of it all.
     return 0;
 }
