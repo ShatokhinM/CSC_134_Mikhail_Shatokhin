@@ -13,7 +13,16 @@ using namespace std;
 int main(){
     
     //initialize the variables
+    int accumulator = 0;
+
+    //
     
+    for(int i = 0;i<100;i++){
+        accumulator += i;
+
+    }    
+
+    cout<<"The sum of the first 100 integers is: "<< accumulator <<endl;
     //return 0 for good ethics of it all.
     return 0;
 }

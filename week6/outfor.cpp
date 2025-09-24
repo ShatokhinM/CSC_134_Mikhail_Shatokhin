@@ -13,7 +13,15 @@ using namespace std;
 int main(){
     
     //initialize the variables
+    int input = 0;
+
+    cout<<"Enter a positive integer: ";
+    cin>>input;
     
+    for(int i = 0;i<input;i++){
+        cout<< i <<endl;
+
+    }    
     //return 0 for good ethics of it all.
     return 0;
 }
