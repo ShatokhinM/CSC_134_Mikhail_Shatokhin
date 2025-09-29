@@ -13,7 +13,11 @@ using namespace std;
 int main(){
     
     //initialize the variables
+    int sumOp = 0;
+    int adder = 10;
+
     
+
     //return 0 for good ethics of it all.
     return 0;
 }
