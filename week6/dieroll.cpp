@@ -15,7 +15,7 @@ int main(){
     //initialize the variables
     
     srand(time(0));
-    cout << time(0);
+    //cout << time(0);
     //srand(sqrt((rand()%100)%50));
     int random = 0;
     int input = 0;

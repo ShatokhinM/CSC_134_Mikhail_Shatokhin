@@ -16,7 +16,10 @@ int main(){
     int sumOp = 0;
     int adder = 10;
 
-    
+    for(int i = 0; i < 50;i++){
+        sumOp = adder + i;
+        cout << "sumOp = " << sumOp << endl;
+    }
 
     //return 0 for good ethics of it all.
     return 0;
