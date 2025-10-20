@@ -17,26 +17,13 @@ int main(){
     
     //initialize the variables
     ofstream outFile; //output file stream
-    ifstream inFile; //input file stream
-    
-    inFile.open("Lab1.txt"); //open the input file
-    outFile.open("Lab3.txt"); //open the file
 
-    string line = ""; //string to hold each line
-    string templine; //string to hold the modified line
+    outFile.open("Lab1.txt"); //open the file
 
-    do{ //loop through the lines
-        templine = line; //set the templine to the line
-        
-        inFile >> line; //read the line
-        
-        if (templine != line)
-            cout << line ; //print the line to the console
-
-    }while(templine != line);
+    outFile << "Bourne IdentityStar Wars Episode IVThe Hunger GamesDead PoolX-Men First ClassStar Wars Espisode VGet Out" << endl; //write to the file
 
     outFile.close(); //close the file
-    inFile.close(); //close the input file
+
     //return 0 for good ethics of it all.
     return 0;
 }
