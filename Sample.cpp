@@ -1,7 +1,6 @@
 //@author: Shatokhin Mikhail
 //@date: mm/dd/yyyy
 //@purpose: 
-//LucidChart Link: 
 
 //include the iostream directive
 #include<iostream>
