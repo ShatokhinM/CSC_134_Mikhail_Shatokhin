@@ -13,17 +13,18 @@ using namespace std;
 int main(){
     
     //initialize the variables
-    int arr[10];
+    string arr[10];
     double avg = 0;
     for (int i = 0; i<10;i++){
         cout << "Enter number " << i+1 << ": ";
         cin >> arr[i];
     }
-    for (int i = 0; i<10;i++){
-        avg += arr[i];
-    }
-    avg = avg / 10;
-    cout << "The average is: " << avg << endl;
+    //for (int i = 0; i<10;i++){
+    //    avg += arr[i];
+    //}
+    cout << arr[-1];
+   // avg = avg / 10;
+   // cout << "The average is: " << avg << endl;
     //return 0 for good ethics of it all.
     return 0;
 }
