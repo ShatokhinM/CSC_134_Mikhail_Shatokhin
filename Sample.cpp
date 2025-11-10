@@ -15,7 +15,8 @@ using namespace std;
 int main(){
     
     //initialize the variables
-    
+    string days[] = {"suis0","wtwas"};
+    cout << days[-1];
     //return 0 for good ethics of it all.
     return 0;
 }
